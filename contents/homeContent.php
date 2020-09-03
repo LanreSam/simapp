@@ -19,7 +19,7 @@
     </div><!--end of container-fluid div-->
 
 
-    <div id = "" class = "container p-5 bg-dark mb-5 mt-5 text-white">
+    <div id = "" class = "container p-5 store-hour mb-5 mt-5 text-white rounded">
     <div class = "column three">
         <strong>Phone</strong>
             +234 - 812 825 1336<br>
@@ -33,11 +33,11 @@
 
     <div class = "column three last">
         <strong>Hours</strong>
-        <em>Tuesday - Thursday</em>
-            1:00pm - 9:00pm<br><br>
+        <em>Monday - Thursday</em>
+            8:00am - 9:00pm<br><br>
 
         <em>Friday - Saturday</em>
-            4:00pm - 11:00pm<br><br>
+            10:00am - 11:00pm<br><br>
 
         <em>Sunday - monday</em>
             Closed.<br><br>

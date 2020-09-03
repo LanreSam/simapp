@@ -17,12 +17,23 @@
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 <body>
+    <style>
+        .header-background{
+            background-color: #1B2842;
+        }
+        .footer-background{
+            background-color: #1B2842;
+        }
+        .store-hour{
+            background-color: #1B2842;
+        }
+    </style>
 
     <div class="container-fluid mt-3 mb-4">
         <header>
             <div>
 
-                <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark shadow">
+                <nav class="navbar navbar-expand-md navbar-dark fixed-top header-background shadow">
                     <div>
                         <img src="img/logoWhite.png" alt="LogoTelecom" width="150px" height="150px">
                     </div><!--container for LOGO-->

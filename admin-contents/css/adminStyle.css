@@ -1,0 +1,41 @@
+/* side Navbar */
+.sidebar{
+    height: 100vh;
+    background: url('../images/profile-bg.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 10px #222;
+}
+
+
+.bottom-border{
+    border-bottom: 1px groove #eee;
+}
+
+.sidebar-link{
+    transition: all .4s;
+}
+
+.sidebar-link:hover{
+    border-bottom: 2px groove white;
+    transform: translateX(15px);
+}
+
+#current{
+    background-color: rgba(27,40,66, .7);
+    box-shadow: 1px 1px 10px #CBCBCB;
+    border-radius: 7px;
+    border: 2px groove white;
+    transition: all .6s;
+}
+
+#current:hover{
+    background-color: #1B2842;
+    transform: translateY(-8px);
+}
+/* end of Side Navbar */
+
+
+
+
+

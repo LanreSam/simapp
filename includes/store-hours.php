@@ -18,13 +18,13 @@ date_default_timezone_set('Africa/Lagos');
 // If open multiple times in one day, enter time ranges separated by a comma
 // If open late (ie. 6pm - 1am), add hours after midnight to the next day (ie. 00:00-1:00)
 $hours = array(
-    'mon' => array('00:00-00:00'),
-    'tue' => array('13:00-21:00'),
-    'wed' => array('13:00-21:00'),
-    'thu' => array('13:00-21:00'),
-    'fri' => array('16:00-23:00'),
-    'sat' => array('16:00-23:00'),
-    'mon' => array('00:00-00:00')
+    'mon' => array('08:00-21:00'),
+    'tue' => array('08:00-21:00'),
+    'wed' => array('08:00-21:00'),
+    'thu' => array('08:00-21:00'),
+    'fri' => array('10:00-23:00'),
+    'sat' => array('10:00-23:00'),
+    'sun' => array('00:00-00:00')
 );
 
 // Optional: add exceptions (great for holidays etc.)
@@ -40,8 +40,8 @@ $exceptions = array(
 // Warning: %open% and %closed% will NOT work if you have multiple time ranges assigned to a single day.
 // Optional: use %day% to make your "closed all day" message more dynamic.
 // Optional: use %exception% to make your exception messages dynamic.
-$open_now = "<strong class='open'>Yes, we're open! Today's hours are %open% until %closed%.</strong>";
-$closed_now = "<strong class='text-danger bg-white'>Sorry, we're closed. Today's hours are %open% until %closed%.</strong>";
+$open_now = "<strong class='text-success'>Yes, we're open! Today's hours are %open% until %closed%.</strong>";
+$closed_now = "<strong class='text-danger'>Sorry, we're closed. Today's hours are %open% until %closed%.</strong>";
 $closed_all_day = "<strong class='closed'>Sorry, we're closed on %day%.</strong>";
 $exception = "<strong class='closed'>Sorry, we're closed for %exception%.</strong>";
 
