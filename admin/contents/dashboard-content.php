@@ -23,9 +23,9 @@
                     <div class="row align-item-center">
                         <div class="col-xl-12 mb-4 mb-xl-0">
                             <h3 class="text-center text-light mb-4 display-4">User Details</h3>
-                            <table class="table  table-hover bg-light table-striped text-center">
+                            <table class="table  table-hover table-dark table-striped text-center">
                                 <thead>
-                                    <tr class="text-muted">
+                                    <tr class="text-warning">
                                         <th>#</th>
                                         <th>Full Name</th>
                                         <th>Email</th>
@@ -108,6 +108,14 @@
                                 </ul>
                             </nav>
                             <!--end of Pagination-->
+
+                            <!--buttons-->
+                            <div class="mt-5 text-center">
+                                <button type="button" class="btn btn-danger mr-3"><img src="img/trash.png" width="20" class="mr-2">Delete Database</img></button>
+                                <button type="button" class="btn btn-success"><img src="img/user.png" width="20" class="mr-2">Add new user</img></button>
+                            </div>
+                            <!--end of buttons-->
+                            
                         </div>
                     </div>
                 </div>
