@@ -1,3 +1,25 @@
+
+                        <div class="ml-auto">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active"><a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a></li>
+                                <li class="nav-item"><a class="nav-link" href="register.php">Register </a></li>
+                                <li class="nav-item"><a class="nav-link" href="login.php">Login</a></li>
+                                <li class="nav-item"><a class="nav-link" href="admin/dashboard.php">Admin</a></li>
+                            </ul>
+                        </div><!--ml-auto div-->
+                        
+                    </div><!--collapse div-->  
+                </nav><!--nav div-->
+                
+            </div><!--Doing  nothing-->
+            
+        </header><!--end of header-->
+
+
+
+
+
+
 <div class="content">
             <div class="container">
                 <div class="overlay m-auto">

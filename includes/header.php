@@ -1,14 +1,9 @@
-<?php include('includes/arrays.php');?>
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LogoTelecom</title>
+    <title>LogoTelecom | <?php echo $page_name?></title>
 
     <link rel="stylesheet" href="custom-style.css">
 
@@ -43,15 +38,7 @@
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button><!--Toggle button for mobile screen-->
-                    
+
                     <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <div class="ml-auto">
-                            <?php include('includes/nav.php');?>
-                        </div><!--m-auto div-->
-                        
-                    </div><!--collapse div-->  
-                </nav><!--nav div-->
-                
-            </div><!--Doing  nothing-->
-            
-        </header><!--end of header-->
+                    
+                    

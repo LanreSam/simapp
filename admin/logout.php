@@ -1,0 +1,1 @@
+<?php $current_page = 'Logout';?>

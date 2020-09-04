@@ -1,7 +1,7 @@
 /* side Navbar */
 .sidebar{
     height: 100vh;
-    background: url('../images/profile-bg.jpg') no-repeat;
+    background: url('img/profile-bg.jpg') no-repeat;
     background-position: center;
     background-size: cover;
     box-shadow: 2px 2px 10px #222;
@@ -21,7 +21,8 @@
     transform: translateX(15px);
 }
 
-#current{
+
+.current{
     background-color: rgba(27,40,66, .7);
     box-shadow: 1px 1px 10px #CBCBCB;
     border-radius: 7px;
@@ -29,12 +30,12 @@
     transition: all .6s;
 }
 
-#current:hover{
+.current:hover{
     background-color: #1B2842;
     transform: translateY(-8px);
 }
-/* end of Side Navbar */
 
+/* end of Side Navbar */
 
 
 
