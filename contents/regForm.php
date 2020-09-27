@@ -58,7 +58,7 @@
             
             <div class="form-group form-check">
                 <input type="checkbox" class="form-check-input" id="check">
-                <label for="check">I agree to the <a href="#">Terms and condition</a> and I've successfully read the <a href="#">Privacy Policy</a> of this university currency system.</label>
+                <label for="check">I agree to the <a href="#">Terms and condition</a> and I've successfully read the <a href="#">Privacy Policy</a> of using this system.</label>
             </div>
 
             <button type="submit" class="btn btn-success">Submit</button>
