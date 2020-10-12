@@ -32,7 +32,7 @@
                     </p>
 
                     <button type="button" class="btn bg-dark text-white">About Us</button>
-                    <button type="button" class="btn bg-light ml-3">Developer</button>
+                    <a href="https://lanresam.ml"><button type="button" class="btn bg-light ml-3">Developer</button></a>
                 </div><!--end of div-->
                 
             </div><!--end of container-->
